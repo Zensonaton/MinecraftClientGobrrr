@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "minecraftclientgobrrr",
+	"version": "${version}",
+	"name": "MinecraftClient go brrr",
+	"description": "Lightweight client-side mod that makes changes to the MinecraftClient class, resulting in a smoother loading experience.",
+	"authors": [
+		"Zensonaton"
+	],
+	"contact": {
+		"repo": "https://github.com/Zensonaton/MinecraftClientGobrrr"
+	},
+	"license": "MIT",
+	"icon": "assets/MinecraftClientGobrrr/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [],
+		"main": [
+			"com.zensonaton.minecraftclientgobrrr.MinecraftClientGobrrr"
+		]
+	},
+	"accessWidener": "minecraftclientgobrrr.accesswidener",
+	"mixins": [
+		"MinecraftClientGobrrr.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"fabric": "*",
+		"minecraft": "${minecraft_version}"
+	}
+}
