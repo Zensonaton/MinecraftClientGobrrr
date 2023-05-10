@@ -9,6 +9,16 @@ Lets say that you are playing on a huge modpack like AOF. The thing is that you 
 
 That mod was tested with AOF6, and there wasn't any issues. This mod is pretty much simple, it shouldn't create any issues with other mods. However, there may be issues that I may not be aware of. If you encounter any bugs, please report them in the [issues section](https://github.com/Zensonaton/MinecraftClientGobrrr/issues).
 
+### Does this speed up game loading?
+
+No, its not. Like, at all.
+
+This mod simply creates a game window a lit earlier to tell us, that the game is loading. There is nothing that this mod does. *yet.*
+
+### Can I use this mod in modpacks?
+
+Yes, without permission.
+
 ### Plans
 
 - Move `MinecraftClient` class initialization in separate thread, solving the 'Minecraft not responding' issue on game loading.
