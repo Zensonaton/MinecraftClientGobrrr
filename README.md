@@ -2,7 +2,7 @@
 
 # Minecraft Client go brrr
 
-**Fabric mod that forces Minecraft to create game window much earlier**.
+**Fabric/Quilt mod that forces Minecraft to create game window much earlier**.
 Lets say that you are playing on a huge modpack like AOF. The thing is that you need to wait several minutes to see game window. This mod changes that, forcing Minecraft to create a game window a lot earlier. Although, that window cannot be interacted with, it is still a great indicator that the game is actually loading.
 
 ## Compatibility
