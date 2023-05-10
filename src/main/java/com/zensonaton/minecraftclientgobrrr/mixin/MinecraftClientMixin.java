@@ -26,7 +26,7 @@ public abstract class MinecraftClientMixin {
 
 	private Window minecraftclientgobrr$createdWindow;
 
-	@Inject(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/RunArgs$Directories;getResourceIndex()Lnet/minecraft/client/resource/ResourceIndex;"))
+	@Inject(method = "<init>", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/RunArgs$Directories;getAssetDir()Ljava/nio/file/Path;"))
 	private void createGameWindowEarly(RunArgs runArgs, CallbackInfo ci) {
 		MinecraftClientGobrrr.LOGGER.info("Doing some wacky game window magic! He-he.");
 
