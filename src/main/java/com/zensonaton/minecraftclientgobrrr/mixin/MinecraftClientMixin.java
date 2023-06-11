@@ -1,14 +1,17 @@
 package com.zensonaton.minecraftclientgobrrr.mixin;
 
 import com.mojang.blaze3d.systems.RenderSystem;
+import com.mojang.datafixers.DataFixer;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.RunArgs;
 import net.minecraft.client.WindowSettings;
 import net.minecraft.client.option.GameOptions;
 import net.minecraft.client.util.Window;
 import net.minecraft.client.util.WindowProvider;
+import net.minecraft.datafixer.Schemas;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Mutable;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
