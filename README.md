@@ -9,7 +9,7 @@ Lets say that you are playing on a huge modpack like AOF; The thing is that you 
 
 That mod was tested with AOF6, and there wasn't any issues, however, there *are* incompatible mods:
 
-* [Bobby](https://modrinth.com/mod/bobby), [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric/files). See [issue #6](https://github.com/Zensonaton/MinecraftClientGobrrr/issues/6).
+* [Bobby](https://modrinth.com/mod/bobby), [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric/files) and [Window Title Changer](https://www.curseforge.com/minecraft/mc-mods/window-title-changer). See [issue #6](https://github.com/Zensonaton/MinecraftClientGobrrr/issues/6).
 
 There may be other incompatabilities or issues that I may not be aware of. Please report those in the [issues section](https://github.com/Zensonaton/MinecraftClientGobrrr/issues).
 

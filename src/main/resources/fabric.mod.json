@@ -36,6 +36,7 @@
 	},
 	"breaks": {
 		"bobby": "*",
-		"farsight": "*"
+		"farsight": "*",
+		"window_title_changer": "*"
 	}
 }
