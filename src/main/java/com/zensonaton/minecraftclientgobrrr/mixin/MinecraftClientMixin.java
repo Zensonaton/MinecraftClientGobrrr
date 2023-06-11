@@ -23,6 +23,7 @@ public abstract class MinecraftClientMixin {
 	@Final public File gameDirectory;
 	@Shadow protected abstract String getWindowTitle();
 	@Shadow public abstract void onWindowFocusChanged(boolean bl);
+	@Mutable @Shadow @Final private DataFixer dataFixer;
 
 	private Window minecraftclientgobrr$createdWindow;
 
@@ -30,6 +31,7 @@ public abstract class MinecraftClientMixin {
 	private void createGameWindowEarly(RunArgs runArgs, CallbackInfo ci) {
 		MinecraftClientGobrrr.LOGGER.info("Doing some wacky game window magic! He-he.");
 
+		dataFixer = Schemas.getFixer();
 		RenderSystem.initBackendSystem();
 		WindowProvider windowProvider = new WindowProvider((MinecraftClient) (Object) this);
 		GameOptions options = new GameOptions((MinecraftClient) (Object) this, gameDirectory);
