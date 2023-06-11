@@ -3,17 +3,21 @@
 # Minecraft Client go brrr
 
 **Fabric/Quilt mod that forces Minecraft to create game window much earlier**.
-Lets say that you are playing on a huge modpack like AOF. The thing is that you need to wait several minutes to see game window. This mod changes that, forcing Minecraft to create a game window a lot earlier. Although, that window cannot be interacted with, it is still a great indicator that the game is actually loading.
+Lets say that you are playing on a huge modpack like AOF; The thing is that you need to wait several minutes to see game window. This mod changes that, forcing Minecraft to create a game window a lot earlier. Although that window cannot be interacted with, it is still a great indicator that the game is actually loading.
 
 ## Compatibility
 
-That mod was tested with AOF6, and there wasn't any issues. This mod is pretty much simple, it shouldn't create any issues with other mods. However, there may be issues that I may not be aware of. If you encounter any bugs, please report them in the [issues section](https://github.com/Zensonaton/MinecraftClientGobrrr/issues).
+That mod was tested with AOF6, and there wasn't any issues, however, there *are* incompatible mods:
+
+* [Bobby](https://modrinth.com/mod/bobby), [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight-fabric/files) and [Window Title Changer](https://www.curseforge.com/minecraft/mc-mods/window-title-changer). See [issue #6](https://github.com/Zensonaton/MinecraftClientGobrrr/issues/6).
+
+There may be other incompatabilities or issues that I may not be aware of. Please report those in the [issues section](https://github.com/Zensonaton/MinecraftClientGobrrr/issues).
 
 ### Does this speed up game loading?
 
 No, its not. Like, at all.
 
-This mod simply creates a game window a lit earlier to tell us, that the game is loading. There is nothing that this mod does. *yet.*
+This mod simply creates a game window a little earlier to tell us, *humons*, that the game is loading. There is nothing that this mod does.
 
 ### Can I use this mod in modpacks?
 
@@ -21,12 +25,13 @@ Yes, without permission.
 
 ### Plans
 
-- Move `MinecraftClient` class initialization in separate thread, solving the 'Minecraft not responding' issue on game loading.
-- Support other Minecraft versions.
+* Support other Minecraft versions.
+* ~~Move `MinecraftClient` class initialization in separate thread, solving the 'Minecraft not responding' issue on game loading~~. (too hard to accomplish)
 
 ### Downloads
 
-- [Modrinth](https://modrinth.com/mod/minecraftclientgobrrr).
+* [Modrinth](https://modrinth.com/mod/minecraftclientgobrrr).
+* [Curseforge](https://curseforge.com/minecraft/mc-mods/minecraft-client-go-brrr).
 
 ### License
 

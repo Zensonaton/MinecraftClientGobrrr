@@ -8,7 +8,10 @@
 		"Zensonaton"
 	],
 	"contact": {
-		"repo": "https://github.com/Zensonaton/MinecraftClientGobrrr"
+		"homepage": "https://modrinth.com/mod/minecraftclientgobrrr",
+		"repo": "https://github.com/Zensonaton/MinecraftClientGobrrr",
+		"issues": "https://github.com/Zensonaton/MinecraftClientGobrrr/issues",
+		"sources": "https://github.com/Zensonaton/MinecraftClientGobrrr"
 	},
 	"license": "MIT",
 	"icon": "assets/MinecraftClientGobrrr/icon.png",
@@ -17,6 +20,9 @@
 		"client": [],
 		"main": [
 			"com.zensonaton.minecraftclientgobrrr.MinecraftClientGobrrr"
+		],
+		"preLaunch": [
+			"com.zensonaton.minecraftclientgobrrr.MinecraftClientGobrrrPreLaunchEntrypoint"
 		]
 	},
 	"accessWidener": "minecraftclientgobrrr.accesswidener",
@@ -27,5 +33,10 @@
 		"fabricloader": ">=${loader_version}",
 		"fabric": "*",
 		"minecraft": "${minecraft_version}"
+	},
+	"breaks": {
+		"bobby": "*",
+		"farsight": "*",
+		"window_title_changer": "*"
 	}
 }
