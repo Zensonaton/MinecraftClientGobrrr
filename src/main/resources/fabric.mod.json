@@ -17,6 +17,9 @@
 		"client": [],
 		"main": [
 			"com.zensonaton.minecraftclientgobrrr.MinecraftClientGobrrr"
+		],
+		"preLaunch": [
+			"com.zensonaton.minecraftclientgobrrr.MinecraftClientGobrrrPreLaunchEntrypoint"
 		]
 	},
 	"accessWidener": "minecraftclientgobrrr.accesswidener",
